@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+/* ======================== */
+.container {
+    background-color: #eee;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.ele {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.elef {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mtBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    flex-direction: reverse;
+    position: relative;
+}
+.mtBox li {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+@media (min-width:0px) and (max-width: 550px) {
+    .mtBox li {
+        position: relative;
+        border: 1px solid black;
+        padding: 13px 8px;
+        border-radius: 8px;
+    }
+    .dot {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+    }
+    .dot_1 {
+        background-color: black;
+        top: 3px !important;
+        left: 3px !important;
+        color: #fff;
+    }
+    .dot_2 {
+        background-color: crimson;
+        top: 23px !important;
+        left: 3px !important;
+        color: #fff;
+    }
+}
+.dot_1 {
+	background-color: black;
+	top: 8px;
+	left: 10px;
+    color: #fff;
+}
+.dot_2 {
+	background-color: crimson;
+	top: 8px;
+	left: 75px;
+	color: #fff;
+}
+.boxBtn{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.btn{
+    padding: 15px 32px;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    letter-spacing: .6px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn_2{
+    padding: 15px 32px;
+    background-color: crimson;
+    color: #fff;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    letter-spacing: .6px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.point{
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.point_2{
+
+    font-size: 30px;
+    font-weight: 700;
+    color: crimson;
+}
+.goo{
+    background-color: red;
+    color: #fff;
+}
+.too{
+    background-color: blue;
+}
